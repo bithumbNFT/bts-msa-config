@@ -1,0 +1,8 @@
+version: "3"
+services:
+  config:
+    build: .
+    container_name: config-server
+    restart: always
+    ports:
+      - "8888:8888"
