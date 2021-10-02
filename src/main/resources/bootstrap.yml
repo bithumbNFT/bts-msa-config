@@ -1,12 +1,25 @@
+server:
+  port: 8888
+
 spring:
   application:
     name: config-service
+  rabbitmq:
+    host: 172.17.0.1
+    port: 5672
+    username: bts
+    password: btsbts12
+
   cloud:
     config:
       server:
-        encrypt:
-          enabled: false
         git:
           uri: https://github.com/baekinjun/msa-configurations
 encrypt:
   key: bts-key
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: busrefresh
