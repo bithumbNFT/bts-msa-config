@@ -15,8 +15,7 @@ spring:
       server:
         git:
           uri: https://github.com/baekinjun/msa-configurations
-          username: qor7111@naver.com
-          password: qordls741@
+
 encrypt:
   key: bts-key
 
