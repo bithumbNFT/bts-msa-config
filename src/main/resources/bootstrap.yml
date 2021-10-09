@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: config-service
+  sleuth:
+    enabled: true
+    sampler:
+      probability: 0.5
+    zipkin:
+      base-url: http://3.38.28.154:9411/
   rabbitmq:
     host: 172.17.0.1
     port: 5672
