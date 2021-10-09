@@ -6,6 +6,12 @@
 
 - 프로젝트명은 **Bithumb의 NFT와 SNS 서비스를 결합하여 BTS로 지었습니다.** 다양한 작가들의 그림과 아트를 NFT 코인 경매로 만나볼 수 있으며 빗썸 코인 유저들과 열린 소통을 할 수 있도록 SNS 커뮤니티도 활성화 시켰습니다.
 
+## CLOUD BUS WITH RABBIT_MQ 
+
+rabbit mq 와 연결하여서 micro service 들의 설정 정보가 바뀔시 boostrap , actuoar 을 활용하여 컨피그 서버에 post 명령어를 날려주면 
+
+rabbitmq 로 메세지큐가 들어가서 각 마이크로 서비스 에 설정정보가 반영된다 . /busreferesh 엔드포인트이다.
+
 
 <br />
 
