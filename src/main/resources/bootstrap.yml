@@ -14,9 +14,61 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/baekinjun/msa-configurations
-          username: baekinjun
-          password: qordls741@
+          uri: git@github.com:baekinjun/msa-configurations.git
+          ignoreLocalSshSettings: true
+          privateKey:
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+
 encrypt:
   key: bts-key
 
