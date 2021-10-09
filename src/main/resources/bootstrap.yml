@@ -16,8 +16,7 @@ spring:
         git:
           uri: git@github.com:baekinjun/msa-configurations.git
           ignoreLocalSshSettings: true
-          privateKey:
-            -----BEGIN RSA PRIVATE KEY-----
+          privateKey: -----BEGIN RSA PRIVATE KEY-----
             MIIJKwIBAAKCAgEAqxS+Lb2B1+g1HHL4hyNHJ78SKyQC2qlQvn1XzccIOMC7xB1F
             yZ+5yXsR1UD9TMyB7zhrrPsYXvUPDPMgfpTEgafRGlZiuNWJYSVeIIacORaaR68X
             0Nmwy5gBNYpwlJoo+a4AabXZWPo+EDnJdM2wuJUFuu4VqYyyvKo6ZzHYup0fKld1
@@ -68,6 +67,7 @@ spring:
             bzCu3MgmnMjNJGYzN4Qn6s7WOvjcrSxRIrtB2InjgHWGSPf9oXzlBV/yz1vMJntO
             2DmD9Ghxn0iYnLA45EpUUJ4mu6mpc/ouIxFkBBrhM/LmX5vyAWwbCLWsan6tiPI=
             -----END RSA PRIVATE KEY-----
+
 
 encrypt:
   key: bts-key
