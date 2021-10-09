@@ -12,6 +12,8 @@ rabbit mq 와 연결하여서 micro service 들의 설정 정보가 바뀔시 bo
 
 rabbitmq 로 메세지큐가 들어가서 각 마이크로 서비스 에 설정정보가 반영된다 . /busreferesh 엔드포인트이다.
 
+rabbitmq 서버 : http://3.38.31.74:15672/
+
 
 <br />
 
